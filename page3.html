@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            grid-gap: 20px; /* Gap between grid items */
+            padding: 20px;
+        }
+        .movie {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        h2, p {
+            margin: 0;
+            text-align: center;
+        }
+        .banner {
+            width: 100%; 
+            max-width: 100px; 
+            max-height: 80px; 
+            display: block; 
+            margin: 0 auto; 
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Page 3</h1>
+    <div class="container">
+        <div class="movie">
+            <img  class ="banner" src="dune.jpg" alt="Movie 1">
+            <h2>Dune 2</h2>
+            <p>Date: March 1, 2024</p>
+            <p>Director: Denis Villeneuve</p>
+        </div>
+        <div class="movie">
+            <img  class ="banner" src="panda.jpg" alt="Movie 2">
+            <h2>Kung-fu Panda 4</h2>
+            <p>Date: March 08, 2024</p>
+            <p>Director: Mike Mitchell</p>
+        </div>
+        <div class="movie">
+            <img  class ="banner" src="kong.jpg" alt="Movie 3">
+            <h2>Godzilla-Kong</h2>
+            <p>Date: March 29, 2024</p>
+            <p>Director: Adam Wingard</p>
+        </div>
+        <div class="movie">
+            <img  class ="banner" src="exhuma.jpg" alt="Movie 4">
+            <h2>Exhuma</h2>
+            <p>Date: March 14, 2024</p>
+            <p>Director: Jang Jae-hyun</p>
+        </div>
+    </div>
+</body>
+</html>
